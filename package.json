@@ -1,0 +1,19 @@
+{
+  "name": "authorization-authentication",
+  "version": "1.0.0",
+  "description": "Authorization/Authentication example with bcrypt/mongo/node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Tomescu Dani",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
